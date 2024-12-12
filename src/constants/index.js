@@ -22,7 +22,7 @@ export const myProjects = [
     desc: "This project is a web application that allows users to perform various image transformations, such as image restoration, generative fill, object removal, object recoloring, and background removal. The application also enables users to buy credits, which are required to perform these transformations.",
     subdesc:
       "The project is built using React, Next.js, and TypeScript, and is designed to be a client-side rendered application with server-side rendering for certain pages.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+    href: "",
     texture: "/textures/project/project1.png",
     logo: "/assets/project-logo5.png",
     logoStyle: {
@@ -70,7 +70,7 @@ export const myProjects = [
     desc: "Social media platform that bridges the connection between cafes and their patrons by enabling users to share their experiences through photos.",
     subdesc:
       "The project uses Golang for a high-performance backend, PostgreSQL as the database, and Supabase for hosting, enabling features like photo sharing, following cafes or users, and engaging with posts through likes and comments. JWT ensures secure authentication, while GORM simplifies database interactions.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+    href: "",
     texture: "/textures/project/project2.png",
     logo: "/assets/project-logo5.png",
     logoStyle: {
@@ -99,6 +99,44 @@ export const myProjects = [
         id: 4,
         name: "Docker",
         path: "assets/docker-original.svg",
+      },
+    ],
+  },
+
+  {
+    title: "ElegantURL - URL Shortener",
+    desc: "Social media platform that bridges the connection between cafes and their patrons by enabling users to share their experiences through photos.",
+    subdesc:
+      "Developed using Next.js 15, Deno 2, Hono.js, MongoDB, TailwindCSS. With a focus on intuitive design and functionality, it enables users to generate compact links and customize them for branding. Delivering a user-friendly interfaceoptimized for all devices to ensure accessibility and simplicity.",
+    href: "",
+    texture: "/textures/project/project3.png",
+    logo: "/assets/project-logo5.png",
+    logoStyle: {
+      backgroundColor: "#1C1A43",
+      border: "0.2px solid #252262",
+      boxShadow: "0px 0px 60px 0px #635BFF4D",
+    },
+    spotlight: "/assets/spotlight5.png",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/nextjs-original.svg",
+      },
+      {
+        id: 2,
+        name: "Deno 2",
+        path: "assets/denojs-original.svg",
+      },
+      {
+        id: 3,
+        name: "Hono.js",
+        path: "assets/hono-logo.svg",
+      },
+      {
+        id: 4,
+        name: "MongoDB",
+        path: "assets/mongodb-plain-wordmark.svg",
       },
     ],
   },

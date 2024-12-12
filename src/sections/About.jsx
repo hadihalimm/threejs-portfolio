@@ -102,7 +102,7 @@ const About = () => {
               alt="grid-4"
               className="h-fit w-full object-cover sm:h-[276px] sm:object-top md:h-[126px]"
             />
-            <div className="space-y-2">
+            <div className="space-y-2 pb-3">
               <p className="grid-subtext mb-3 text-center">Contact me</p>
               <div className="flex items-center justify-center gap-5">
                 <a
